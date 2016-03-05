@@ -14,14 +14,22 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
+    // Load the url into the webview
+    NSURL *url = [NSURL URLWithString:@"http://studiocenterauditions.com"];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
+} // Dispose of any resources that can be recreated.
+
 
 @end
