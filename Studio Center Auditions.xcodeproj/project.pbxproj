@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48C74BE1C8B6028009503CD /* weather_launch_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D48C74C01C8B6028009503CD /* weather_launch_2x.png */; };
 		D4FEA86F1C8A75C7008246AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FEA86E1C8A75C7008246AF /* main.m */; };
 		D4FEA8721C8A75C7008246AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FEA8711C8A75C7008246AF /* AppDelegate.m */; };
 		D4FEA8751C8A75C7008246AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FEA8741C8A75C7008246AF /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D48C74BF1C8B6028009503CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/weather_launch_2x.png; sourceTree = "<group>"; };
 		D4FEA86A1C8A75C7008246AF /* Studio Center Auditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Studio Center Auditions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FEA86E1C8A75C7008246AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4FEA8701C8A75C7008246AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		D4FEA86D1C8A75C7008246AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D48C74C01C8B6028009503CD /* weather_launch_2x.png */,
 				D4FEA86E1C8A75C7008246AF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +249,7 @@
 				D4FEA87D1C8A75C7008246AF /* LaunchScreen.storyboard in Resources */,
 				D4FEA87A1C8A75C7008246AF /* Assets.xcassets in Resources */,
 				D4FEA8781C8A75C7008246AF /* Main.storyboard in Resources */,
+				D48C74BE1C8B6028009503CD /* weather_launch_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D48C74C01C8B6028009503CD /* weather_launch_2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48C74BF1C8B6028009503CD /* Base */,
+			);
+			name = weather_launch_2x.png;
+			sourceTree = "<group>";
+		};
 		D4FEA8761C8A75C7008246AF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +510,7 @@
 				D4FEA8991C8A75C7008246AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FEA89A1C8A75C7008246AF /* Build configuration list for PBXNativeTarget "Studio Center AuditionsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				D4FEA89C1C8A75C7008246AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4FEA89D1C8A75C7008246AF /* Build configuration list for PBXNativeTarget "Studio Center AuditionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				D4FEA89F1C8A75C7008246AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
