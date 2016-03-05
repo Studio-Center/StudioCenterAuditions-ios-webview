@@ -23,6 +23,8 @@
     // Load the url into the webview
     NSURL *url = [NSURL URLWithString:@"http://studiocenterauditions.com"];
     [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
+    
+    self.webView.mediaPlaybackRequiresUserAction = NO;
 
 }
 
