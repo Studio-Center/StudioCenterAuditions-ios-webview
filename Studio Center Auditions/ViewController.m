@@ -22,10 +22,12 @@
     NSURL *url = [NSURL URLWithString:@"http://studiocenterauditions.com"];
     [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
     
+    // allow media playback
     self.webView.mediaPlaybackRequiresUserAction = NO;
     
+    // prevent user entry zoom
     UIScrollView *scrollView = [self.webView.subviews objectAtIndex:0];
-    self.webView.scrollView.delegate = self;
+    scrollView.delegate = self;
     
 }
 
