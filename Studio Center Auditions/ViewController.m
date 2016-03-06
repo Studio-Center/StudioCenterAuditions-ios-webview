@@ -17,15 +17,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-        
-    self.automaticallyAdjustsScrollViewInsets = NO;
     
     // Load the url into the webview
     NSURL *url = [NSURL URLWithString:@"http://studiocenterauditions.com"];
     [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
     
     self.webView.mediaPlaybackRequiresUserAction = NO;
+    
+    UIScrollView *scrollView = [self.webView.subviews objectAtIndex:0];
+    self.webView.scrollView.delegate = self;
+    
+}
 
+-(UIView*)viewForZoomingInScrollView:(UIScrollView*)scrollView {
+    return nil;
 }
 
 - (void)viewDidLayoutSubviews {
