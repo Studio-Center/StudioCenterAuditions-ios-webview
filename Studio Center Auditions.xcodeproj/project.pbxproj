@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D48C74BE1C8B6028009503CD /* weather_launch_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D48C74C01C8B6028009503CD /* weather_launch_2x.png */; };
+		D48A6F331C8E039B0023BCF9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D48A6F321C8E039B0023BCF9 /* logo.png */; };
 		D4FEA86F1C8A75C7008246AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FEA86E1C8A75C7008246AF /* main.m */; };
 		D4FEA8721C8A75C7008246AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FEA8711C8A75C7008246AF /* AppDelegate.m */; };
 		D4FEA8751C8A75C7008246AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FEA8741C8A75C7008246AF /* ViewController.m */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D48C74BF1C8B6028009503CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/weather_launch_2x.png; sourceTree = "<group>"; };
+		D48A6F321C8E039B0023BCF9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../Downloads/logo.png; sourceTree = "<group>"; };
 		D4FEA86A1C8A75C7008246AF /* Studio Center Auditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Studio Center Auditions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FEA86E1C8A75C7008246AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4FEA8701C8A75C7008246AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		D4FEA86D1C8A75C7008246AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D48C74C01C8B6028009503CD /* weather_launch_2x.png */,
+				D48A6F321C8E039B0023BCF9 /* logo.png */,
 				D4FEA86E1C8A75C7008246AF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -210,6 +210,7 @@
 				TargetAttributes = {
 					D4FEA8691C8A75C7008246AF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y63FHM6DA7;
 					};
 					D4FEA8821C8A75C7008246AF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -246,10 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48A6F331C8E039B0023BCF9 /* logo.png in Resources */,
 				D4FEA87D1C8A75C7008246AF /* LaunchScreen.storyboard in Resources */,
 				D4FEA87A1C8A75C7008246AF /* Assets.xcassets in Resources */,
 				D4FEA8781C8A75C7008246AF /* Main.storyboard in Resources */,
-				D48C74BE1C8B6028009503CD /* weather_launch_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D48C74C01C8B6028009503CD /* weather_launch_2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D48C74BF1C8B6028009503CD /* Base */,
-			);
-			name = weather_launch_2x.png;
-			sourceTree = "<group>";
-		};
 		D4FEA8761C8A75C7008246AF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Studio Center Auditions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.studicoenter.Studio-Center-Auditions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -436,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Studio Center Auditions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.studicoenter.Studio-Center-Auditions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
